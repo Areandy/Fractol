@@ -1,23 +1,28 @@
 # Fractol 
 Project from UNIT.Factory (School 42).
 
-A program that displays a surface from text file with map (basicly two dimensional array).
+A cool looking fractal program.
 
-The height of each dot depends from the integer value in the array.
+There is three types of fractals: mandelbrot, julia and tricorn.
 
-You can rotate and zoom map in any direction.
+You can translate and zoom fractol. More deep - more red spectrum colors.
 
 # Compiling and running
 Go to the folder and write:
 ```c
 make
 ```
-Then use the ```fdf``` file with map file:
+Then use the ```fractol``` file with map file:
 ```c
-./fdf maps/...
+./fractol [mandelbrot | julia | tricorn]
 ```
 # Examples
 ![alt text](https://raw.githubusercontent.com/Areandy/Fractol/master/readme_scenes/1.png)
 ![alt text](https://raw.githubusercontent.com/Areandy/Fractol/master/readme_scenes/2.png)
 ![alt text](https://raw.githubusercontent.com/Areandy/Fractol/master/readme_scenes/3.png)
 ![alt text](https://raw.githubusercontent.com/Areandy/Fractol/master/readme_scenes/4.png)
+![alt text](https://raw.githubusercontent.com/Areandy/Fractol/master/readme_scenes/5.png)
+![alt text](https://raw.githubusercontent.com/Areandy/Fractol/master/readme_scenes/6.png)
+![alt text](https://raw.githubusercontent.com/Areandy/Fractol/master/readme_scenes/7.png)
+![alt text](https://raw.githubusercontent.com/Areandy/Fractol/master/readme_scenes/8.png)
+![alt text](https://raw.githubusercontent.com/Areandy/Fractol/master/readme_scenes/9.png)
