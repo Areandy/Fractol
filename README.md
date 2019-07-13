@@ -7,14 +7,16 @@ There is three types of fractals: mandelbrot, julia and tricorn.
 
 You can translate and zoom fractol. More deep - more red spectrum colors.
 
+Program running on multy threading.
+
 # Compiling and running
 Go to the folder and write:
 ```c
 make
 ```
-Then use the ```fractol``` file with map file:
+Then use the ```fractol``` with name of the fractal and quantity of recursion (default is 50):
 ```c
-./fractol [mandelbrot | julia | tricorn]
+./fractol [mandelbrot | julia | tricorn] [quantity of recursion]
 ```
 # Examples
 ![alt text](https://raw.githubusercontent.com/Areandy/Fractol/master/readme_scenes/1.png)
